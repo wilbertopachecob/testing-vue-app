@@ -44,12 +44,6 @@
       "@vue/standard"
     ],
     "rules": {
-      "prettier": {
-        "space-before-function-paren": [
-          "error",
-          "never"
-        ]
-      },
       "prefer-promise-reject-errors": 0,
       "no-new": 0,
       "space-before-function-paren": [
