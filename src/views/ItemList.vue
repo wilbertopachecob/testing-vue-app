@@ -1,0 +1,25 @@
+<template>
+  <div class="list-items">
+    <item v-for="(item, idk) of displayItems" :key="idk" :item="item" />
+  </div>
+</template>
+
+<script>
+import Item from '../components/Item.vue'
+// import api from '../api/api'
+
+// Warning: @vue/test-utils should use version 1.0.0-beta.20. To install, use:
+// npm install --save-dev @vue/test-utils@1.0.0-beta.20
+//
+
+export default {
+  components: {
+    Item
+  },
+  data() {
+    return {
+      displayItems: window.items
+    }
+  }
+}
+</script>
