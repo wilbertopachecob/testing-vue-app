@@ -48,7 +48,7 @@
       "no-new": 0,
       "space-before-function-paren": [
         "error",
-        "always"
+        "never"
       ],
       "comma-dangle": [
         "error",
